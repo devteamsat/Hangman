@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A718785A2416747700BED772 /* ViewController_UI_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71878592416747700BED772 /* ViewController_UI_Test.swift */; };
+		A718785C2416788600BED772 /* TestNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718785B2416788600BED772 /* TestNavigationController.swift */; };
+		A718785E2416792F00BED772 /* UIBarButtonItemActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718785D2416792F00BED772 /* UIBarButtonItemActionExtension.swift */; };
+		A71878602416798000BED772 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718785F2416798000BED772 /* SettingsViewController.swift */; };
+		A718786824167DDE00BED772 /* SettingsViewController_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718786724167DDE00BED772 /* SettingsViewController_Test.swift */; };
+		A718786A2416890100BED772 /* HamcrestAutolayoutMatchers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71878692416890100BED772 /* HamcrestAutolayoutMatchers.framework */; };
+		A718786B2416890B00BED772 /* HamcrestAutolayoutMatchers.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A71878692416890100BED772 /* HamcrestAutolayoutMatchers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A73A3AB223EDD5C90069F298 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73A3AB123EDD5C90069F298 /* ColorHelper.swift */; };
+		A743708C23F5C44F006DFF90 /* UIButtonActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743708B23F5C44F006DFF90 /* UIButtonActionExtension.swift */; };
+		A743708F23F5C8D8006DFF90 /* GameFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743708E23F5C8D8006DFF90 /* GameFake.swift */; };
+		A752AE0423F67DA7001F73C2 /* HighlightButtonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0323F67DA7001F73C2 /* HighlightButtonTest.swift */; };
+		A752AE0623F67DF8001F73C2 /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0523F67DF8001F73C2 /* HighlightButton.swift */; };
+		A752AE0823F68D0F001F73C2 /* HangmanViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0723F68D0F001F73C2 /* HangmanViewTest.swift */; };
+		A752AE0B23F68EFA001F73C2 /* HangmanStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0A23F68EFA001F73C2 /* HangmanStyleKit.swift */; };
+		A752AE0D23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0C23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift */; };
+		A7882E8E23BE050A001EB0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882E8D23BE050A001EB0BC /* AppDelegate.swift */; };
+		A7882E9023BE050A001EB0BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882E8F23BE050A001EB0BC /* SceneDelegate.swift */; };
+		A7882E9223BE050A001EB0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882E9123BE050A001EB0BC /* ViewController.swift */; };
+		A7882E9523BE050A001EB0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7882E9323BE050A001EB0BC /* Main.storyboard */; };
+		A7882E9723BE050A001EB0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7882E9623BE050A001EB0BC /* Assets.xcassets */; };
+		A7882E9A23BE050A001EB0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7882E9823BE050A001EB0BC /* LaunchScreen.storyboard */; };
+		A7882EA523BE050B001EB0BC /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882EA423BE050B001EB0BC /* GameTests.swift */; };
+		A7882EB023BE2632001EB0BC /* StringCharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882EAF23BE2632001EB0BC /* StringCharacterExtension.swift */; };
+		A7882EB223BE2AFE001EB0BC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882EB123BE2AFE001EB0BC /* Game.swift */; };
+		A7882EB423BE33C0001EB0BC /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882EB323BE33C0001EB0BC /* ViewControllerTest.swift */; };
+		A7BD1B5E23CA2D4E00A6D553 /* ConstraintHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD1B5D23CA2D4E00A6D553 /* ConstraintHelper.swift */; };
+		A7BD1B6123CA2F9400A6D553 /* HangmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD1B6023CA2F9400A6D553 /* HangmanView.swift */; };
+		A7BD1B6323CA42AA00A6D553 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD1B6223CA42AA00A6D553 /* ButtonView.swift */; };
+		A7BD1B6623CA43E900A6D553 /* ButtonViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD1B6523CA43E900A6D553 /* ButtonViewTest.swift */; };
+		A7E25901241001ED003A7EED /* Hamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E25900241001ED003A7EED /* Hamcrest.framework */; };
+		A7E2590224100230003A7EED /* Hamcrest.framework in Resources */ = {isa = PBXBuildFile; fileRef = A7E25900241001ED003A7EED /* Hamcrest.framework */; };
+		A7E2590424100260003A7EED /* Hamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E25900241001ED003A7EED /* Hamcrest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A7E2590724100545003A7EED /* UIColorMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2590624100545003A7EED /* UIColorMatcher.swift */; };
+		A7E2590D241023B1003A7EED /* ViewController_FromStoryboard_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E2590C241023B1003A7EED /* ViewController_FromStoryboard_Test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7882EA123BE050B001EB0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7882E8223BE050A001EB0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7882E8923BE050A001EB0BC;
+			remoteInfo = Hangman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7E259032410025A003A7EED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7E2590424100260003A7EED /* Hamcrest.framework in CopyFiles */,
+				A718786B2416890B00BED772 /* HamcrestAutolayoutMatchers.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A71878592416747700BED772 /* ViewController_UI_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_UI_Test.swift; sourceTree = "<group>"; };
+		A718785B2416788600BED772 /* TestNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationController.swift; sourceTree = "<group>"; };
+		A718785D2416792F00BED772 /* UIBarButtonItemActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemActionExtension.swift; path = ../../../../template/Hangman/HangmanTests/Helper/UIBarButtonItemActionExtension.swift; sourceTree = "<group>"; };
+		A718785F2416798000BED772 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A718786724167DDE00BED772 /* SettingsViewController_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController_Test.swift; sourceTree = "<group>"; };
+		A71878692416890100BED772 /* HamcrestAutolayoutMatchers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HamcrestAutolayoutMatchers.framework; path = Carthage/Build/iOS/HamcrestAutolayoutMatchers.framework; sourceTree = SOURCE_ROOT; };
+		A73A3AB123EDD5C90069F298 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		A743708B23F5C44F006DFF90 /* UIButtonActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonActionExtension.swift; sourceTree = "<group>"; };
+		A743708E23F5C8D8006DFF90 /* GameFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFake.swift; sourceTree = "<group>"; };
+		A752AE0323F67DA7001F73C2 /* HighlightButtonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButtonTest.swift; sourceTree = "<group>"; };
+		A752AE0523F67DF8001F73C2 /* HighlightButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightButton.swift; sourceTree = "<group>"; };
+		A752AE0723F68D0F001F73C2 /* HangmanViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewTest.swift; sourceTree = "<group>"; };
+		A752AE0A23F68EFA001F73C2 /* HangmanStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanStyleKit.swift; sourceTree = "<group>"; };
+		A752AE0C23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseEncoderExtension.swift; sourceTree = "<group>"; };
+		A7882E8A23BE050A001EB0BC /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7882E8D23BE050A001EB0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7882E8F23BE050A001EB0BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7882E9123BE050A001EB0BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7882E9423BE050A001EB0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7882E9623BE050A001EB0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7882E9923BE050A001EB0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7882E9B23BE050A001EB0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7882EA023BE050B001EB0BC /* HangmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7882EA423BE050B001EB0BC /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		A7882EA623BE050B001EB0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7882EAF23BE2632001EB0BC /* StringCharacterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCharacterExtension.swift; sourceTree = "<group>"; };
+		A7882EB123BE2AFE001EB0BC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A7882EB323BE33C0001EB0BC /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
+		A7BD1B5D23CA2D4E00A6D553 /* ConstraintHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintHelper.swift; sourceTree = "<group>"; };
+		A7BD1B6023CA2F9400A6D553 /* HangmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanView.swift; sourceTree = "<group>"; };
+		A7BD1B6223CA42AA00A6D553 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A7BD1B6523CA43E900A6D553 /* ButtonViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewTest.swift; sourceTree = "<group>"; };
+		A7E25900241001ED003A7EED /* Hamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hamcrest.framework; path = Carthage/Build/iOS/Hamcrest.framework; sourceTree = SOURCE_ROOT; };
+		A7E2590624100545003A7EED /* UIColorMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorMatcher.swift; sourceTree = "<group>"; };
+		A7E2590C241023B1003A7EED /* ViewController_FromStoryboard_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_FromStoryboard_Test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7882E8723BE050A001EB0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7882E9D23BE050B001EB0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E25901241001ED003A7EED /* Hamcrest.framework in Frameworks */,
+				A718786A2416890100BED772 /* HamcrestAutolayoutMatchers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A743708D23F5C8B5006DFF90 /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				A743708E23F5C8D8006DFF90 /* GameFake.swift */,
+				A718785B2416788600BED772 /* TestNavigationController.swift */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		A752AE0923F68EFA001F73C2 /* StyleKit */ = {
+			isa = PBXGroup;
+			children = (
+				A752AE0A23F68EFA001F73C2 /* HangmanStyleKit.swift */,
+			);
+			path = StyleKit;
+			sourceTree = "<group>";
+		};
+		A7882E8123BE050A001EB0BC = {
+			isa = PBXGroup;
+			children = (
+				A7882E8C23BE050A001EB0BC /* Hangman */,
+				A7882EA323BE050B001EB0BC /* HangmanTests */,
+				A7E258FE241000D0003A7EED /* Frameworks */,
+				A7882E8B23BE050A001EB0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7882E8B23BE050A001EB0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7882E8A23BE050A001EB0BC /* Hangman.app */,
+				A7882EA023BE050B001EB0BC /* HangmanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7882E8C23BE050A001EB0BC /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				A752AE0923F68EFA001F73C2 /* StyleKit */,
+				A7BD1B5F23CA2F7C00A6D553 /* View */,
+				A7882E8D23BE050A001EB0BC /* AppDelegate.swift */,
+				A7882E9623BE050A001EB0BC /* Assets.xcassets */,
+				A7882EB123BE2AFE001EB0BC /* Game.swift */,
+				A7882E9B23BE050A001EB0BC /* Info.plist */,
+				A7882E9823BE050A001EB0BC /* LaunchScreen.storyboard */,
+				A7882E9323BE050A001EB0BC /* Main.storyboard */,
+				A7882E8F23BE050A001EB0BC /* SceneDelegate.swift */,
+				A718785F2416798000BED772 /* SettingsViewController.swift */,
+				A7882EAF23BE2632001EB0BC /* StringCharacterExtension.swift */,
+				A7882E9123BE050A001EB0BC /* ViewController.swift */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		A7882EA323BE050B001EB0BC /* HangmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD1B5C23CA2D3F00A6D553 /* Helper */,
+				A7E2590524100531003A7EED /* Matchers */,
+				A743708D23F5C8B5006DFF90 /* TestDoubles */,
+				A7BD1B6423CA43D700A6D553 /* View */,
+				A7882EA423BE050B001EB0BC /* GameTests.swift */,
+				A7882EA623BE050B001EB0BC /* Info.plist */,
+				A7E2590C241023B1003A7EED /* ViewController_FromStoryboard_Test.swift */,
+				A71878592416747700BED772 /* ViewController_UI_Test.swift */,
+				A7882EB323BE33C0001EB0BC /* ViewControllerTest.swift */,
+				A718786724167DDE00BED772 /* SettingsViewController_Test.swift */,
+			);
+			path = HangmanTests;
+			sourceTree = "<group>";
+		};
+		A7BD1B5C23CA2D3F00A6D553 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A752AE0C23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift */,
+				A7BD1B5D23CA2D4E00A6D553 /* ConstraintHelper.swift */,
+				A73A3AB123EDD5C90069F298 /* ColorHelper.swift */,
+				A743708B23F5C44F006DFF90 /* UIButtonActionExtension.swift */,
+				A718785D2416792F00BED772 /* UIBarButtonItemActionExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A7BD1B5F23CA2F7C00A6D553 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD1B6023CA2F9400A6D553 /* HangmanView.swift */,
+				A7BD1B6223CA42AA00A6D553 /* ButtonView.swift */,
+				A752AE0523F67DF8001F73C2 /* HighlightButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7BD1B6423CA43D700A6D553 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7BD1B6523CA43E900A6D553 /* ButtonViewTest.swift */,
+				A752AE0323F67DA7001F73C2 /* HighlightButtonTest.swift */,
+				A752AE0723F68D0F001F73C2 /* HangmanViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7E258FE241000D0003A7EED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A71878692416890100BED772 /* HamcrestAutolayoutMatchers.framework */,
+				A7E25900241001ED003A7EED /* Hamcrest.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7E2590524100531003A7EED /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				A7E2590624100545003A7EED /* UIColorMatcher.swift */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7882E8923BE050A001EB0BC /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7882EA923BE050B001EB0BC /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				A7882E8623BE050A001EB0BC /* Sources */,
+				A7882E8723BE050A001EB0BC /* Frameworks */,
+				A7882E8823BE050A001EB0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = A7882E8A23BE050A001EB0BC /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7882E9F23BE050B001EB0BC /* HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7882EAC23BE050B001EB0BC /* Build configuration list for PBXNativeTarget "HangmanTests" */;
+			buildPhases = (
+				A7882E9C23BE050B001EB0BC /* Sources */,
+				A7882E9D23BE050B001EB0BC /* Frameworks */,
+				A7882E9E23BE050B001EB0BC /* Resources */,
+				A7E259032410025A003A7EED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7882EA223BE050B001EB0BC /* PBXTargetDependency */,
+			);
+			name = HangmanTests;
+			productName = HangmanTests;
+			productReference = A7882EA023BE050B001EB0BC /* HangmanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7882E8223BE050A001EB0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rene Pirringer";
+				TargetAttributes = {
+					A7882E8923BE050A001EB0BC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A7882E9F23BE050B001EB0BC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A7882E8923BE050A001EB0BC;
+					};
+				};
+			};
+			buildConfigurationList = A7882E8523BE050A001EB0BC /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7882E8123BE050A001EB0BC;
+			productRefGroup = A7882E8B23BE050A001EB0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7882E8923BE050A001EB0BC /* Hangman */,
+				A7882E9F23BE050B001EB0BC /* HangmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7882E8823BE050A001EB0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7882E9A23BE050A001EB0BC /* LaunchScreen.storyboard in Resources */,
+				A7882E9723BE050A001EB0BC /* Assets.xcassets in Resources */,
+				A7882E9523BE050A001EB0BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7882E9E23BE050B001EB0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E2590224100230003A7EED /* Hamcrest.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7882E8623BE050A001EB0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7882E9223BE050A001EB0BC /* ViewController.swift in Sources */,
+				A7882EB223BE2AFE001EB0BC /* Game.swift in Sources */,
+				A7BD1B6123CA2F9400A6D553 /* HangmanView.swift in Sources */,
+				A71878602416798000BED772 /* SettingsViewController.swift in Sources */,
+				A752AE0B23F68EFA001F73C2 /* HangmanStyleKit.swift in Sources */,
+				A7882E8E23BE050A001EB0BC /* AppDelegate.swift in Sources */,
+				A752AE0623F67DF8001F73C2 /* HighlightButton.swift in Sources */,
+				A7882EB023BE2632001EB0BC /* StringCharacterExtension.swift in Sources */,
+				A7882E9023BE050A001EB0BC /* SceneDelegate.swift in Sources */,
+				A7BD1B6323CA42AA00A6D553 /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7882E9C23BE050B001EB0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A752AE0423F67DA7001F73C2 /* HighlightButtonTest.swift in Sources */,
+				A718786824167DDE00BED772 /* SettingsViewController_Test.swift in Sources */,
+				A7882EB423BE33C0001EB0BC /* ViewControllerTest.swift in Sources */,
+				A73A3AB223EDD5C90069F298 /* ColorHelper.swift in Sources */,
+				A7BD1B5E23CA2D4E00A6D553 /* ConstraintHelper.swift in Sources */,
+				A7BD1B6623CA43E900A6D553 /* ButtonViewTest.swift in Sources */,
+				A718785A2416747700BED772 /* ViewController_UI_Test.swift in Sources */,
+				A743708F23F5C8D8006DFF90 /* GameFake.swift in Sources */,
+				A7882EA523BE050B001EB0BC /* GameTests.swift in Sources */,
+				A752AE0823F68D0F001F73C2 /* HangmanViewTest.swift in Sources */,
+				A718785E2416792F00BED772 /* UIBarButtonItemActionExtension.swift in Sources */,
+				A718785C2416788600BED772 /* TestNavigationController.swift in Sources */,
+				A7E2590D241023B1003A7EED /* ViewController_FromStoryboard_Test.swift in Sources */,
+				A752AE0D23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift in Sources */,
+				A7E2590724100545003A7EED /* UIColorMatcher.swift in Sources */,
+				A743708C23F5C44F006DFF90 /* UIButtonActionExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7882EA223BE050B001EB0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7882E8923BE050A001EB0BC /* Hangman */;
+			targetProxy = A7882EA123BE050B001EB0BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7882E9323BE050A001EB0BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7882E9423BE050A001EB0BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7882E9823BE050A001EB0BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7882E9923BE050A001EB0BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7882EA723BE050B001EB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7882EA823BE050B001EB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7882EAA23BE050B001EB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED5DV56QPQ;
+				INFOPLIST_FILE = Hangman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciqua.Hangman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7882EAB23BE050B001EB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED5DV56QPQ;
+				INFOPLIST_FILE = Hangman/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciqua.Hangman;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7882EAD23BE050B001EB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED5DV56QPQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HangmanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciqua.HangmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+			};
+			name = Debug;
+		};
+		A7882EAE23BE050B001EB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED5DV56QPQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HangmanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciqua.HangmanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7882E8523BE050A001EB0BC /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7882EA723BE050B001EB0BC /* Debug */,
+				A7882EA823BE050B001EB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7882EA923BE050B001EB0BC /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7882EAA23BE050B001EB0BC /* Debug */,
+				A7882EAB23BE050B001EB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7882EAC23BE050B001EB0BC /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7882EAD23BE050B001EB0BC /* Debug */,
+				A7882EAE23BE050B001EB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7882E8223BE050A001EB0BC /* Project object */;
+}
