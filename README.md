@@ -8,7 +8,7 @@ To get the app running in Xcode you need to resolve the 3rd Party dependencies f
 After installing [Carthage](https://github.com/Carthage/Carthage) just run the command:
 
 ```
-carthage update
+carthage update --platform iOS
 ```
 
 Then you can start Xcode and run the app or execute the unit tests.

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A718785A2416747700BED772 /* ViewController_UI_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71878592416747700BED772 /* ViewController_UI_Test.swift */; };
 		A718785C2416788600BED772 /* TestNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718785B2416788600BED772 /* TestNavigationController.swift */; };
-		A718785E2416792F00BED772 /* UIBarButtonItemActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718785D2416792F00BED772 /* UIBarButtonItemActionExtension.swift */; };
 		A71878602416798000BED772 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718785F2416798000BED772 /* SettingsViewController.swift */; };
 		A718786824167DDE00BED772 /* SettingsViewController_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718786724167DDE00BED772 /* SettingsViewController_Test.swift */; };
 		A718786A2416890100BED772 /* HamcrestAutolayoutMatchers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71878692416890100BED772 /* HamcrestAutolayoutMatchers.framework */; };
@@ -22,6 +21,7 @@
 		A752AE0823F68D0F001F73C2 /* HangmanViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0723F68D0F001F73C2 /* HangmanViewTest.swift */; };
 		A752AE0B23F68EFA001F73C2 /* HangmanStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0A23F68EFA001F73C2 /* HangmanStyleKit.swift */; };
 		A752AE0D23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A752AE0C23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift */; };
+		A75C2320241F65FC00CD64EA /* UIBarButtonItemActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C231F241F65FB00CD64EA /* UIBarButtonItemActionExtension.swift */; };
 		A7882E8E23BE050A001EB0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882E8D23BE050A001EB0BC /* AppDelegate.swift */; };
 		A7882E9023BE050A001EB0BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882E8F23BE050A001EB0BC /* SceneDelegate.swift */; };
 		A7882E9223BE050A001EB0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7882E9123BE050A001EB0BC /* ViewController.swift */; };
@@ -70,7 +70,6 @@
 /* Begin PBXFileReference section */
 		A71878592416747700BED772 /* ViewController_UI_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_UI_Test.swift; sourceTree = "<group>"; };
 		A718785B2416788600BED772 /* TestNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNavigationController.swift; sourceTree = "<group>"; };
-		A718785D2416792F00BED772 /* UIBarButtonItemActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemActionExtension.swift; path = ../../../../template/Hangman/HangmanTests/Helper/UIBarButtonItemActionExtension.swift; sourceTree = "<group>"; };
 		A718785F2416798000BED772 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A718786724167DDE00BED772 /* SettingsViewController_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController_Test.swift; sourceTree = "<group>"; };
 		A71878692416890100BED772 /* HamcrestAutolayoutMatchers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HamcrestAutolayoutMatchers.framework; path = Carthage/Build/iOS/HamcrestAutolayoutMatchers.framework; sourceTree = SOURCE_ROOT; };
@@ -82,6 +81,7 @@
 		A752AE0723F68D0F001F73C2 /* HangmanViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewTest.swift; sourceTree = "<group>"; };
 		A752AE0A23F68EFA001F73C2 /* HangmanStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanStyleKit.swift; sourceTree = "<group>"; };
 		A752AE0C23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCaseEncoderExtension.swift; sourceTree = "<group>"; };
+		A75C231F241F65FB00CD64EA /* UIBarButtonItemActionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemActionExtension.swift; sourceTree = "<group>"; };
 		A7882E8A23BE050A001EB0BC /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7882E8D23BE050A001EB0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7882E8F23BE050A001EB0BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -200,11 +200,11 @@
 		A7BD1B5C23CA2D3F00A6D553 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				A75C231F241F65FB00CD64EA /* UIBarButtonItemActionExtension.swift */,
 				A752AE0C23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift */,
 				A7BD1B5D23CA2D4E00A6D553 /* ConstraintHelper.swift */,
 				A73A3AB123EDD5C90069F298 /* ColorHelper.swift */,
 				A743708B23F5C44F006DFF90 /* UIButtonActionExtension.swift */,
-				A718785D2416792F00BED772 /* UIBarButtonItemActionExtension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -374,9 +374,9 @@
 				A7BD1B6623CA43E900A6D553 /* ButtonViewTest.swift in Sources */,
 				A718785A2416747700BED772 /* ViewController_UI_Test.swift in Sources */,
 				A743708F23F5C8D8006DFF90 /* GameFake.swift in Sources */,
+				A75C2320241F65FC00CD64EA /* UIBarButtonItemActionExtension.swift in Sources */,
 				A7882EA523BE050B001EB0BC /* GameTests.swift in Sources */,
 				A752AE0823F68D0F001F73C2 /* HangmanViewTest.swift in Sources */,
-				A718785E2416792F00BED772 /* UIBarButtonItemActionExtension.swift in Sources */,
 				A718785C2416788600BED772 /* TestNavigationController.swift in Sources */,
 				A7E2590D241023B1003A7EED /* ViewController_FromStoryboard_Test.swift in Sources */,
 				A752AE0D23F6BB45001F73C2 /* XCTestCaseEncoderExtension.swift in Sources */,
